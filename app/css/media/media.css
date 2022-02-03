@@ -1,0 +1,118 @@
+@media (min-width: 1400px) {
+    .container,
+    .container-lg,
+    .container-md,
+    .container-sm,
+    .container-xl,
+    .container-xxl {
+        max-width: 1160px;
+    }
+}
+
+@media screen and (max-width: 990px) {
+    .min-width-container {
+        width: 90%;
+    }
+
+    .single-page-wrapper .vector {
+        left: 20px;
+        top: -16px
+    }
+
+    .blog-title {
+        font-size: var(--type-larger);
+    }
+
+    .sub-info__description {
+        font-size: var(--type-base);
+    }
+
+    .single-page-wrapper .vector img {
+        width: 61%;
+        height: 67%;
+    }
+
+    .hero-wrapper__image {
+        padding: 0;
+    }
+}
+
+@media screen  and (max-width: 688px) {
+    .specific-padding-r,
+    .specific-padding-l,
+    .hero-wrapper__image,
+    .hero-info-container {
+        padding: 0 15px;
+    }
+
+    .hero-info-container {
+        justify-content: center !important;
+    }
+
+    .hero-wrapper {
+        min-height: 250px;
+        align-items: center !important;
+    }
+
+    .hero-wrapper__text {
+        font-size: 40px;
+        z-index: 9999;
+    }
+
+    .hero-wrapper__image {
+        padding: 0;
+        margin: 0 -50%;
+    }
+
+    .hero-wrapper__image .vector {
+        right: 0;
+        display: flex;
+        justify-content: flex-end;
+    }
+
+    .hero-wrapper__image img {
+        width: 200px;
+        height: 200px;
+    }
+
+    .hero-wrapper__image .vector img {
+        width: 40%;
+        height: 40%;
+    }
+
+    .footer-wrapper {
+        height: 250px;
+    }
+
+    .footer-list {
+        grid-gap: 25px;
+        margin-bottom: 15px;
+        margin-top: -16px;
+    }
+
+    .footer-list img {
+        width: 70%;
+        height: 50%;
+    }
+
+    .single-page-wrapper .vector {
+        display: none;
+    }
+}
+
+@media screen and (max-width: 980px) {
+    .collapse:not(.show) {
+        background: black;
+        z-index: 999999;
+        padding: 20px 40px;
+    }
+
+    .navbar-toggler {
+        background-color: unset;
+        border: 0;
+    }
+
+    .navbar-toggler:focus {
+        box-shadow: unset;
+    }
+}

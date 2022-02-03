@@ -1,0 +1,9 @@
+@import "base/general.css";
+@import "loader/loader.css";
+@import "component/input.css";
+@import "component/button.css";
+@import "layout/header.css";
+@import "layout/footer.css";
+@import "pages/blog.css";
+
+@import "media/media.css";

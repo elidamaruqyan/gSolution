@@ -1,0 +1,24 @@
+.header-wrapper {
+    height: 97px;
+    background-color: var(--clr-ntrl-max);
+}
+
+.header-wrapper .navbar-nav {
+    grid-gap: 30px 51px;
+    padding: 20px 4px;
+}
+
+.header-wrapper .navbar-dark .navbar-nav .nav-link {
+    padding: 0;
+    font: var(--type-light) normal var(--type-base) var(--font-helvetica);
+    color: var(--clr-ntrl-min);
+    transition: 800ms;
+}
+
+.header-wrapper .navbar-dark .navbar-nav .nav-link:hover {
+    color: var(--main-brand-color);
+}
+
+.header-wrapper .navbar-dark .navbar-nav .nav-link.active {
+    color: var(--main-brand-color);
+}

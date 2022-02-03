@@ -1,0 +1,18 @@
+.footer-wrapper {
+    height: 387px;
+}
+
+.footer-list {
+    grid-gap: 41px;
+    margin-bottom: 30px;
+    margin-top: -16px;
+}
+
+.footer-list .nav-link {
+    padding: 0;
+}
+
+.copyright-text {
+    font: var(--type-light) normal var(--type-smallest) var(--font-helvetica);
+    color: var(--clr-ntrl-min);
+}

@@ -25,3 +25,8 @@
 .solution-btn--dark {
     background-color: var(--clr-ntrl-max);
 }
+
+.contact-btn {
+    margin-top: 56px;
+    box-shadow: unset;
+}

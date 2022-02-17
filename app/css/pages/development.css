@@ -1,0 +1,178 @@
+/* Portfolio Wrapper*/
+.portfolio-wrapper {
+    padding: 30px 0 44px;
+}
+
+.text-inside-image {
+    transform: translate(-37%, -9px);
+}
+
+.vector__left {
+    right: unset;
+    top: -14px;
+    left: -17px;
+    transform: rotate(328deg);
+}
+
+.section-title {
+    margin-bottom: 48px;
+    font: var(--type-semi-bold) normal 3.75rem var(--font-webly-sleek);
+}
+
+.portfolio-card__item {
+    position: relative;
+    height: 340px;
+}
+
+.portfolio-card__item img {
+    height: 100%;
+}
+
+.portfolio-card__item-info {
+    position: absolute;
+    bottom: 0;
+    max-height: 98px;
+    padding: 8px 15px 10px;
+    overflow: hidden;
+    background-color: var(--main-brand-color08);
+}
+
+.portfolio-card__title {
+    margin-bottom: 4px;
+    font: var(--type-semi-bold) normal 1.563rem var(--font-webly-sleek);
+}
+
+.portfolio-card__description {
+    font: var(--type-light) normal var(--type-smaller) var(--font-webly-sleek);
+}
+
+.owl-stage {
+    gap: 60px 30px;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+}
+
+.owl-carousel.owl-drag .owl-item {
+    width: 100% !important;
+    margin: 0 !important;
+}
+
+
+/* Expertise Wrapper*/
+.expertise-wrapper {
+    padding-bottom: 22px;
+}
+
+.dev-projects {
+    margin-left: -47px;
+    margin-top: -12px;
+}
+
+.dev-projects__title {
+    margin-bottom: 14px;
+    font: var(--type-semi-bold) normal 30px var(--font-webly-sleek);
+    color: #222020;
+}
+
+.dev-projects__info {
+    margin-bottom: 60px;
+    width: 88%;
+    letter-spacing: 0.1px;
+    font: var(--type-light) normal var(--type-smaller) var(--font-webly-sleek);
+    color: #333;
+}
+
+.development-list {
+    margin-bottom: 50px;
+}
+
+.development-list__item {
+    position: relative;
+    padding-left: 30px;
+    margin-bottom: 15px;
+}
+
+.development-list__item p {
+    font: var(--type-light) normal var(--type-smaller) var(--font-webly-sleek);
+}
+
+.development-list__item:after {
+    content: url("../../assets/images/slacksvg.svg");
+    position: absolute;
+    left: 14px;
+    top: 4px;
+}
+
+.dev-projects__logos {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    grid-gap: 98px 110px;
+}
+
+.dev-projects__logo-name {
+    margin-top: 13px;
+    font: var(--type-semi-bold) normal var(--type-smaller) var(--font-webly-sleek);
+}
+
+.dev-projects__logos img {
+    width: auto;
+    filter: grayscale(100%);
+    transition: 800ms;
+    cursor: pointer;
+}
+
+.dev-projects__logos img:hover {
+    filter: grayscale(0);
+}
+
+/* Web App Wrapper */
+.web-app-wrapper {
+    padding: 24px 0 34px;
+}
+
+.feature-container {
+    margin: 0;
+    padding: 0;
+}
+
+.feature {
+    margin-bottom: 63px;
+}
+
+.feature-card__title {
+    font: var(--type-semi-bold) normal 30px var(--font-webly-sleek);
+    margin-left: 18px;
+}
+
+.feature-card__description {
+    width: 90%;
+    margin-top: 14px;
+    font: var(--type-semi-bold) normal var(--type-smaller) var(--font-webly-sleek);
+    color: #bababa;
+}
+
+/* Contact Wrapper */
+.contact-wrapper {
+    padding-bottom: 40px;
+    border-bottom: 1px solid var(--main-brand-color);
+}
+
+.section-sub-title {
+    margin-bottom: 70px;
+    font: var(--type-semi-bold) normal 30px var(--font-webly-sleek);
+}
+
+.form-control {
+    margin-bottom: 30px;
+    border: 0;
+    border-radius: 0;
+    border-bottom: 2px solid var(--footer-text-color);
+    background: transparent;
+    color: var(--clr-ntrl-min);
+}
+
+.form-control::-webkit-input-placeholder {
+    font: var(--type-semi-bold) normal var(--type-large) var(--font-webly-sleek);
+    color: var(--footer-text-color);
+}

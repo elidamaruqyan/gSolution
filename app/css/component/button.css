@@ -1,0 +1,27 @@
+.solution-btn {
+    height: 50px;
+    min-width: 195px;
+    max-width: 195px;
+    margin-bottom: 20px;
+    border-radius: 5px;
+    border: 0;
+    font: var(--type-semi-bold) normal var(--type-smaller) var(--font-webly-sleek);
+    background-color: var(--main-brand-color);
+    color: var(--clr-ntrl-min);
+    box-shadow: 0 4px 4px #9FA1AC;
+}
+
+.solution-btn-mob-dev {
+    text-transform: uppercase;
+    grid-gap: 7px;
+    padding: 0 8px;
+    justify-content: flex-start;
+}
+
+.solution-btn-mob-dev img {
+    width: auto;
+}
+
+.solution-btn--dark {
+    background-color: var(--clr-ntrl-max);
+}

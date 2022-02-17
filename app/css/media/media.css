@@ -116,3 +116,14 @@
         box-shadow: unset;
     }
 }
+
+@media (min-width: 1400px) {
+    .portfolio-wrapper .container,
+    .portfolio-wrapper .container-lg,
+    .portfolio-wrapper .container-md,
+    .portfolio-wrapper .container-sm,
+    .portfolio-wrapper .container-xl,
+    .portfolio-wrapper .container-xxl, .large-container {
+        max-width: 1250px;
+    }
+}

@@ -14,6 +14,10 @@
     color: var(--clr-ntrl-min);
 }
 
+.min-width-text {
+    font-size: 90px;
+}
+
 .trapezoid {
     position: absolute;
     top: 6px;

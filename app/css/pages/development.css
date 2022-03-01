@@ -122,13 +122,22 @@
     grid-gap: 42px 110px;
 }
 
+.min-width-logo {
+    width: 68px;
+}
+
+.min-width-logo img {
+    width: 100%;
+}
+
 .dev-projects__logo-name {
     margin-top: 13px;
     font: var(--type-semi-bold) normal var(--type-smaller) var(--font-webly-sleek);
 }
 
 .dev-projects__logos img {
-    width: auto;
+    width: 100%;
+    object-fit: contain;
     filter: grayscale(100%);
     transition: 800ms;
     cursor: pointer;

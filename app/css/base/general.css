@@ -29,6 +29,7 @@
     --primary-color-dk: rgba(109, 109, 109, 1); /* #6D6D6D */
     --clr-ntrl-max: rgba(0, 0, 0, 1);
     --secondary-dark-color: rgba(34, 32, 32, 1);
+    --dropdown-border-color: rgba(225, 225, 225, 1);
 
     /**************** Gap and Duration Variables **********************/
     --duration: 3s;

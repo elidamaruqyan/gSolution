@@ -8,6 +8,23 @@
         max-width: 1160px;
     }
 
+    .large-container-for-hero .container,
+    .container-lg,
+    .container-md,
+    .container-sm,
+    .container-xl,
+    .container-xxl {
+        max-width: 75%;
+    }
+
+    .large-container .hero-wrapper__image {
+        display: flex;
+    }
+
+    .large-container-for-hero .text-inside-image {
+        padding: 0;
+    }
+
     .portfolio-wrapper .container,
     .portfolio-wrapper .container-lg,
     .portfolio-wrapper .container-md,
@@ -184,3 +201,4 @@
         padding: 50px 0;
     }
 }
+

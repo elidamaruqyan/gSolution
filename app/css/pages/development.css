@@ -105,7 +105,7 @@
 }
 
 .development-list__item:after {
-    content: url("../../assets/images/slacksvg.svg");
+    content: url("../../assets/images/slack.svg");
     position: absolute;
     left: 14px;
     top: 4px;

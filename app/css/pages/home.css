@@ -1,0 +1,420 @@
+/*********** Hero *************************/
+.hero-container {
+    padding: 65px 0 154px;
+}
+
+.hero-container figure {
+    grid-gap: 20px;
+}
+
+.hero-info {
+    margin-top: 42px;
+}
+
+.hero-info .hero-wrapper__text {
+    margin: 0;
+}
+
+.hero__image {
+    position: relative;
+    width: 382px;
+    height: 375px;
+}
+
+.hero__image img {
+    object-fit: contain;
+    width: 100%;
+    height: auto;
+}
+
+.hero-wrapper__image-for-logo {
+    transform: translate(-26%, -9px);
+    object-fit: contain;
+    width: 420px;
+    height: auto;
+}
+
+.hero-wrapper__subtitle {
+    margin: 20px 0 0 -24px;
+}
+
+.hero-wrapper__subtitle-item {
+    font: var(--type-medium) normal normal 40px var(--font-noah);
+}
+
+/*********** Case Studio *************************/
+
+.case-studio {
+    margin-bottom: 54px;
+}
+
+.case-studio .section-title {
+    position: relative;
+    margin-top: 0;
+    margin-bottom: 26px;
+    padding-left: 62px;
+    font-size: 5rem;
+    z-index: 999;
+}
+
+.case-studio .vector__left {
+    top: -45%;
+    left: 0;
+    z-index: 99;
+}
+
+.case-studio-card {
+    display: flex;
+    flex-wrap: wrap;
+    margin-bottom: 76px;
+}
+
+.case-studio-card .card-image {
+    position: relative;
+    max-width: 555px;
+    height: 294px;
+    padding: 0;
+}
+
+.case-studio-card .card-image img {
+    position: relative;
+    z-index: 9;
+    height: 100%;
+    object-fit: cover;
+}
+
+.case-studio-card .card-image::after {
+    position: absolute;
+    left: -9px;
+    bottom: -9px;
+    content: '';
+    display: block;
+    width: 178px;
+    height: 116px;
+    background-color: var(--main-brand-color);
+}
+
+.case-studio-card--reserved .card-image::after {
+    right: -9px;
+    left: unset;
+    bottom: -9px;
+}
+
+.case-studio-card .card-image::before {
+    position: absolute;
+    right: -9px;
+    top: -9px;
+    content: '';
+    display: block;
+    width: 372px;
+    height: 87px;
+    background-color: rgba(20, 20, 20, 100);
+}
+
+.case-studio-card--reserved .card-image::before {
+    right: unset;
+    left: -9px;
+    top: -9px;
+}
+
+.card-image-bg {
+    position: relative;
+    height: 100%;
+}
+
+.card-image-bg::after {
+    position: absolute;
+    right: 0;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    content: '';
+    display: block;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.2);
+    z-index: 9;
+}
+
+.card-info {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 0 30px;
+}
+
+.card-info__title {
+    position: relative;
+    padding-bottom: 20px;
+    margin-bottom: 20px;
+    font: var(--type-semi-bold) normal 1.875rem var(--font-webly-sleek);
+    color: var(--clr-ntrl-min);
+}
+
+.card-info__title::after {
+    position: absolute;
+    bottom: 0;
+    content: '';
+    display: block;
+    width: 98px;
+    height: 3px;
+    background-color: var(--main-brand-color);
+}
+
+.card-info__description {
+    font: var(--type-light) normal var(--type-smallest) var(--font-webly-sleek);
+    color: #bbb;
+}
+
+/*********** About Us *************************/
+.about-us {
+    position: relative;
+    min-height: 654px;
+}
+
+.home-sections__title {
+    margin: 15px 0 0;
+    font: var(--type-semi-bold) normal normal 5.625rem var(--font-webly-sleek);
+    letter-spacing: -4.75px;
+}
+
+.about-us-card__info {
+    width: 81%;
+    margin-bottom: 103px;
+    font: var(--type-light) normal normal var(--type-smallest) var(--font-webly-sleek);
+    color: #9A9A;
+}
+
+.about-us-card-list {
+    position: relative;
+    grid-gap: 56px;
+    z-index: 9999;
+}
+
+.about-us-card-list__item {
+    grid-gap: 10px;
+}
+
+.about-us-card-list__item-title {
+    font: var(--type-light) normal normal 1rem var(--font-webly-sleek);
+    text-transform: uppercase;
+    color: var(--clr-ntrl-min);
+}
+
+.about-us-card-list__item-value {
+    font: var(--type-semi-bold) normal normal 2.5rem var(--font-webly-sleek);
+    color: var(--main-brand-color);
+}
+
+.map {
+    position: absolute;
+}
+
+.map img {
+    height: auto;
+}
+
+/*********** Services *************************/
+.services {
+    margin-bottom: 208px;
+}
+
+.service-section-title {
+    font: var(--type-semi-bold) normal normal 5rem var(--font-webly-sleek);
+    margin-bottom: 33px;
+}
+
+.service-section-subtitle {
+    margin-bottom: 66px;
+    width: 494px;
+    font: var(--type-light) normal normal var(--type-smallest) var(--font-webly-sleek);
+    line-height: 20px;
+    letter-spacing: 0;
+}
+
+.service-card__item {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 100%;
+    padding: 56px 27px;
+    background-color: var(--main-brand-color);
+    color: var(--clr-ntrl-min);
+    transition: 500ms;
+    cursor: pointer;
+}
+
+.service-card__item:hover {
+    background-color: var(--clr-ntrl-min);
+    color: var(--main-brand-color);
+}
+
+.service-card__item:hover .service-card__item-btn,
+.service-card__item:hover svg path {
+    color: var(--clr-ntrl-min);
+    background-color: var(--main-brand-color);
+    fill: var(--main-brand-color);
+}
+
+.service-card__item-title {
+    margin-top: 40px;
+    font: var(--type-semi-bold) normal normal 1.875rem var(--font-webly-sleek);
+    line-height: 40px;
+    letter-spacing: 0;
+    text-align: center;
+}
+
+.service-card__item-info {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.service-card__item-info-text {
+    display: block;
+    margin: 24px 0 54px;
+    font: var(--type-regular) italic normal var(--type-smallest) 'Montserrat Alternates Light';
+    line-height: 20px;
+    letter-spacing: 0;
+    text-align: center;
+}
+
+.service-card__item-btn {
+    width: 127px;
+    height: 45px;
+    border: 0;
+    background-color: var(--clr-ntrl-min);
+    color: var(--main-brand-color);
+    font: var(--type-semi-bold) normal normal 1rem var(--font-webly-sleek);
+    line-height: 21px;
+    letter-spacing: 0;
+    text-align: center;
+}
+
+.grid-gap {
+    display: grid;
+    gap: 28px;
+    grid-auto-rows: unset;
+    grid-template-columns: repeat(auto-fill, minmax(230px, 1fr));
+    align-items: stretch;
+}
+
+/*********** Partners *************************/
+.partners {
+    margin-bottom: 191px;
+}
+
+.partner-hero-wrapper {
+    padding-bottom: 97px;
+}
+
+.partner-hero-wrapper .home-sections__title {
+    margin: 0;
+}
+
+.partner-hero-wrapper .hero__image {
+    width: 429px;
+    height: 353px;
+}
+
+.partner-hero-wrapper .hero__image img {
+    width: 100%;
+}
+
+.partner-hero-wrapper .home-sections__title {
+    margin-left: 30px;
+}
+
+.vector__right {
+    position: absolute;
+    right: -13%;
+    top: -6%;
+}
+
+.partner-list {
+    display: grid;
+    gap: 43px 94px;
+    grid-auto-rows: 100px;
+    grid-template-columns: repeat(auto-fill, minmax(120px, 1fr));
+}
+
+.partner-list__item {
+    display: flex;
+    align-items: flex-end;
+}
+
+.partner-list img {
+    object-fit: contain;
+    height: auto;
+}
+
+.partner-list__item--height-auto img {
+    height: 100%;
+}
+
+.partner-list__item--margin-top img {
+    transform: translateY(-12px);
+}
+
+/*********** Reviews *************************/
+.reviews {
+    padding: 21px 0 199px;
+    border-bottom: 1px solid var(--main-brand-color);
+}
+
+.reviews-list__item {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding: 14px 20px 20px 14px;
+    border: 1px solid var(--main-brand-color);
+}
+
+.reviews-list__item-logo {
+    width: 51px;
+    height: 51px;
+    margin-left: 4px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50%;
+    background-color: var(--clr-ntrl-min);
+}
+
+.reviews-list__item-logo img {
+    width: auto !important;
+}
+
+.reviews-list__item-text {
+    margin: 13px 0 25px;
+    font: var(--type-light) normal var(--type-smallest) var(--font-webly-sleek);
+    line-height: 20px;
+    letter-spacing: 0;
+    text-align: left;
+}
+
+.reviews-list__item-name {
+    font: var(--type-light) normal var(--type-smallest) var(--font-webly-sleek);
+    color: var(--main-brand-color);
+    line-height: 20px;
+    letter-spacing: 0;
+    text-align: left;
+}
+
+.owl-dots .owl-dot span {
+    width: 10px;
+    height: 10px;
+    margin: 5px 7px;
+    background: #D6D6D6;
+    display: block;
+    -webkit-backface-visibility: visible;
+    transition: opacity .2s ease;
+    border-radius: 30px;
+}
+
+.owl-dots .owl-dot.active span, .owl-theme .owl-dots .owl-dot:hover span {
+    background: #869791;
+}

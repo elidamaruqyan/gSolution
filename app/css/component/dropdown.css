@@ -9,18 +9,15 @@
     grid-gap: 5px;
 }
 
-svg path {
-    transition: 800ms;
-}
-
-.dropdown .nav-item:hover svg path {
-    fill: var(--main-brand-color);
+.dropdown .nav-item svg {
+    margin-top: 6px;
 }
 
 .dropdown-menu {
     display: none;
     position: absolute;
     top: 126%;
+    left: -73%;
     min-width: 200px;
     border-radius: 0;
     padding: 0;
@@ -56,8 +53,4 @@ svg path {
 .dropdown-menu__min-width .dropdown-item {
     padding: 5px 8px;
     font: var(--type-semi-bold) normal 16px var(--font-webly-sleek);
-}
-
-.dropdown:hover .dropdown-menu {
-    display: block;
 }

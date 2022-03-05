@@ -4,7 +4,7 @@
 }
 
 .text-inside-image {
-    transform: translate(-37%, -9px);
+    transform: translate(-19%, -9px);
 }
 
 .vector__left {
@@ -12,6 +12,13 @@
     top: -14px;
     left: -17px;
     transform: rotate(328deg);
+}
+
+.hero-wrapper__image .vector__left {
+    right: unset;
+    top: -18px;
+    left: 8px;
+    transform: rotate(330deg);
 }
 
 .section-title {
@@ -22,19 +29,33 @@
 .portfolio-card__item {
     position: relative;
     height: 340px;
+    overflow: hidden;
 }
 
 .portfolio-card__item img {
     height: 100%;
+    filter: grayscale(100%);
+    transition: 500ms;
+}
+
+.portfolio-card__item:hover img {
+    filter: grayscale(0);
 }
 
 .portfolio-card__item-info {
     position: absolute;
     bottom: 0;
+    left: 0;
+    right: 0;
     max-height: 98px;
     padding: 8px 15px 10px;
     overflow: hidden;
     background-color: var(--main-brand-color08);
+    transition: 500ms;
+}
+
+.portfolio-card__item:hover .portfolio-card__item-info {
+    bottom: -50%;
 }
 
 .portfolio-card__title {
@@ -46,13 +67,13 @@
     font: var(--type-light) normal var(--type-smaller) var(--font-webly-sleek);
 }
 
-.owl-stage {
+.portfolio-wrapper .owl-stage {
     gap: 60px 30px;
     display: grid;
     grid-template-columns: repeat(2, 1fr);
 }
 
-.owl-carousel.owl-drag .owl-item {
+.portfolio-wrapper .owl-carousel.owl-drag .owl-item {
     width: 100% !important;
     margin: 0 !important;
 }
@@ -61,6 +82,11 @@
 /* Expertise Wrapper*/
 .expertise-wrapper {
     padding-bottom: 22px;
+    background-color: var(--clr-ntrl-min);
+}
+
+.section-title {
+    margin-top: 40px;
 }
 
 .web-dev {
@@ -163,13 +189,14 @@
 
 .feature-card__title {
     font: var(--type-semi-bold) normal 30px var(--font-webly-sleek);
-    margin-left: 18px;
+    margin-left: 20px;
+    line-height: 24px;
 }
 
 .feature-card__description {
     width: 90%;
     margin-top: 14px;
-    font: var(--type-semi-bold) normal var(--type-smaller) var(--font-webly-sleek);
+    font: var(--type-light) normal var(--type-smaller) var(--font-webly-sleek);
     color: #bababa;
 }
 
@@ -183,4 +210,10 @@
     margin-bottom: 75px;
     font: var(--type-semi-bold) normal 30px var(--font-webly-sleek);
     line-height: 1px;
+}
+
+.feature-icon img {
+    width: 43px;
+    height: auto;
+    object-fit: contain;
 }

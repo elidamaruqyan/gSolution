@@ -16,9 +16,9 @@
 }
 
 .header-wrapper .navbar-dark .navbar-nav .nav-link:hover {
-    color: var(--main-brand-color);
+    border-bottom: 1px solid var(--main-brand-color);
 }
 
 .header-wrapper .navbar-dark .navbar-nav .nav-link.active {
-    color: var(--main-brand-color);
+    border-bottom: 1px solid var(--main-brand-color);
 }

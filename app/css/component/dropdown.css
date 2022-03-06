@@ -17,7 +17,8 @@
     display: none;
     position: absolute;
     top: 126%;
-    left: -73%;
+    left: 50%;
+    transform: translate(-50%, 0);
     min-width: 200px;
     border-radius: 0;
     padding: 0;

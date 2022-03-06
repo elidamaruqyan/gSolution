@@ -189,10 +189,6 @@
         margin-bottom: 40px;
     }
 
-    .dev-projects__logos {
-        padding: 50px 0;
-    }
-
     /*Home page*/
     .card-info {
         margin-top: 30px;
@@ -267,6 +263,25 @@
     .navbar-toggler:focus {
         box-shadow: unset;
     }
+
+    .dev-projects__logos {
+        display: grid;
+        grid-template-columns: repeat(auto-fill, minmax(230px, 1fr));
+        margin: 50px 0;
+    }
+
+    .logo-item, .logo-item:nth-child(2n) {
+        align-items: center;
+    }
+
+    .wrapper-with-fixed-height {
+        height: auto;
+    }
+
+    .web-dev__logos {
+        grid-template-columns: repeat(auto-fill, minmax(130px, 1fr));
+        transform: translate(0);
+    }
 }
 
 @media screen  and (max-width: 1200px) {
@@ -274,8 +289,9 @@
         margin-left: 0;
     }
 
-    .dev-projects__logos {
-        grid-gap: 40px 60px;
+    .logo-item {
+        width: 130px;
+        margin: 22px 15px;
     }
 }
 
@@ -302,7 +318,7 @@
         display: flex;
     }
 
-    .large-container-for-hero .text-inside-image {
+    .large-container-for-hero .text-inside-image-large-size, .text-inside-image {
         padding: 0;
     }
 

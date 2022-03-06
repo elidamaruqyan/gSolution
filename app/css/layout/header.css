@@ -12,7 +12,7 @@
     padding: 0;
     font: var(--type-light) normal var(--type-base) var(--font-webly-sleek);
     color: var(--clr-ntrl-min);
-    transition: 800ms;
+    transition: 500ms;
 }
 
 .header-wrapper .navbar-dark .navbar-nav .nav-link:hover {

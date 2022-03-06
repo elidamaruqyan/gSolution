@@ -10,15 +10,16 @@
     color: var(--clr-ntrl-min);
 }
 
-.solution-btn:focus {
-    box-shadow: 0 4px 4px rgba(159, 161, 172, 0.5);
-}
-
 .solution-btn-mob-dev {
     text-transform: uppercase;
     grid-gap: 7px;
     padding: 0 8px;
     justify-content: flex-start;
+}
+
+.android-btn {
+    transition: 500ms;
+    box-shadow: 0 4px 4px rgba(159, 161, 172, 0.5);
 }
 
 .solution-btn-mob-dev img {

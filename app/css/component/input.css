@@ -45,6 +45,11 @@
 
 
 /*Contact form */
+
+.contact-wrapper .section-title {
+    margin-top: 0;
+}
+
 .contact-wrapper .form-group {
     margin-bottom: 10px;
 }

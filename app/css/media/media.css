@@ -293,6 +293,14 @@
         width: 130px;
         margin: 22px 15px;
     }
+
+    .contact-form-info {
+        padding-left: 30px;
+    }
+
+    .contact-form-wrapper {
+        margin-left: 0;
+    }
 }
 
 @media (min-width: 1400px) {
@@ -330,4 +338,6 @@
     .portfolio-wrapper .container-xxl, .large-container {
         max-width: 1250px;
     }
+}
+
 }

@@ -361,7 +361,7 @@
 
 /*********** Reviews *************************/
 .reviews {
-    padding: 21px 0 199px;
+    padding: 21px 0 152px;
     border-bottom: 1px solid var(--main-brand-color);
 }
 
@@ -402,19 +402,4 @@
     line-height: 20px;
     letter-spacing: 0;
     text-align: left;
-}
-
-.owl-dots .owl-dot span {
-    width: 10px;
-    height: 10px;
-    margin: 5px 7px;
-    background: #D6D6D6;
-    display: block;
-    -webkit-backface-visibility: visible;
-    transition: opacity .2s ease;
-    border-radius: 30px;
-}
-
-.owl-dots .owl-dot.active span, .owl-theme .owl-dots .owl-dot:hover span {
-    background: #869791;
 }

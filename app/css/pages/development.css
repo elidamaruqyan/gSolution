@@ -71,15 +71,10 @@
     font: var(--type-light) normal var(--type-smaller) var(--font-webly-sleek);
 }
 
-.portfolio-wrapper .owl-stage {
+.portfolio-wrapper .owl-carousel.owl-drag .owl-item .item {
     gap: 60px 30px;
     display: grid;
     grid-template-columns: repeat(2, 1fr);
-}
-
-.portfolio-wrapper .owl-carousel.owl-drag .owl-item {
-    width: 100% !important;
-    margin: 0 !important;
 }
 
 
@@ -264,7 +259,7 @@
 .feature-card__title {
     font: var(--type-semi-bold) normal 30px var(--font-webly-sleek);
     margin-left: 20px;
-    line-height: 24px;
+    line-height: inherit;
 }
 
 .feature-card__description {

@@ -102,6 +102,15 @@
     padding-bottom: 50px;
 }
 
+
+.blogs-wrapper .card {
+    height: 100%;
+}
+
+.blogs-wrapper .col {
+    padding: 0 15px;
+}
+
 .card-image-wrapper {
     max-height: 183px;
     overflow: hidden;
@@ -288,4 +297,8 @@
 
 .sub-info__title--large-size {
     font: var(--type-light) normal 30px var(--font-webly-sleek);
+}
+
+.blogs-item{
+    margin-bottom: 45px;
 }

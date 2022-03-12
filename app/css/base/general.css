@@ -234,3 +234,38 @@ img {
     white-space: normal;
     overflow: hidden;
 }
+
+.owl-dots {
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    margin-top: 28px;
+    grid-gap: 17px;
+}
+
+.reviews .owl-dots {
+    margin-top: 34px;
+}
+
+.owl-dots .owl-dot span {
+    width: 13px;
+    height: 13px;
+    background-color: #C4C4C4;
+    display: block;
+    -webkit-backface-visibility: visible;
+    transition: opacity .2s ease;
+    border-radius: 50%;
+}
+
+.page-wrapper .owl-dots .owl-dot.active span, .owl-theme .owl-dots .owl-dot:hover span {
+    background-color: var(--main-brand-color);
+}
+
+.blogs-wrapper.custom-space {
+    padding-bottom: 28px;
+}
+
+.page-wrapper .owl-dots .owl-dot.active span,
+.owl-theme .owl-dots .owl-dot:hover span {
+    background-color: var(--main-brand-color);
+}

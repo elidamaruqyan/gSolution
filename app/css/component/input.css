@@ -73,3 +73,7 @@
     font: var(--type-semi-bold) normal var(--type-large) var(--font-webly-sleek);
     color: var(--footer-text-color);
 }
+
+.form-control:focus {
+    box-shadow: unset;
+}

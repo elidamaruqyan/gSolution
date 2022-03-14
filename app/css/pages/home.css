@@ -13,6 +13,7 @@
 
 .hero-info .hero-wrapper__text {
     margin: 0;
+    line-height: inherit;
 }
 
 .hero__image {
@@ -39,7 +40,7 @@
 }
 
 .hero-wrapper__subtitle-item {
-    font: var(--type-medium) normal normal 40px var(--font-noah);
+    font: var(--type-light) normal normal 40px var(--font-webly-sleek);
 }
 
 /*********** Case Studio *************************/
@@ -174,7 +175,7 @@
 }
 
 .home-sections__title {
-    margin: 15px 0 0;
+    margin: 15px 0 20px;
     font: var(--type-semi-bold) normal normal 5.625rem var(--font-webly-sleek);
     letter-spacing: -4.75px;
 }
@@ -222,7 +223,7 @@
 
 .service-section-title {
     font: var(--type-semi-bold) normal normal 5rem var(--font-webly-sleek);
-    margin-bottom: 33px;
+    margin-bottom: 20px;
 }
 
 .service-section-subtitle {

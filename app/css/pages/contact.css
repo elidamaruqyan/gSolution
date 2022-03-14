@@ -2,6 +2,11 @@
     height: 372px;
     margin-bottom: 41px;
     border-bottom: 1px solid var(--main-brand-color);
+    background-image: url("../../assets/images/contact_map.svg");
+    background-position: center;
+    background-attachment: fixed;
+    background-size: contain;
+    background-repeat: no-repeat;
     overflow: hidden;
 }
 
@@ -56,7 +61,7 @@
 
 .address-list__item p {
     font: var(--type-light) normal var(--type-base) var(--font-webly-sleek);
-    line-height: 18px;
+    line-height: 24px;
     letter-spacing: 0;
 }
 
@@ -118,4 +123,8 @@
     height: 40px;
     min-width: 169px;
     max-width: 195px;
+}
+
+.contact-form-wrapper .email-validation {
+    border: 1px solid red;
 }

@@ -9,7 +9,8 @@
 }
 
 .header-wrapper .navbar-dark .navbar-nav .nav-link {
-    padding: 0;
+    padding: 0 0 4px 0;
+    padding-bottom: 4px;
     font: var(--type-light) normal var(--type-base) var(--font-webly-sleek);
     color: var(--clr-ntrl-min);
     transition: 500ms;

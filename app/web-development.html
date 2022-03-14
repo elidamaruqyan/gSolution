@@ -48,12 +48,11 @@
 </div>
 <!--================ Loader Area End =================-->
 
-
 <!--================ Header Area Start =================-->
-<header class="header-wrapper">
+<header class="header-wrapper page-wrapper">
     <nav class="navbar navbar-expand-lg navbar-dark navbar navbar-expand-lg bg-dark dark-bg">
-        <div class="container">
-            <a class="navbar-brand" href="#">
+        <div class="container large-container">
+            <a class="navbar-brand" href="index.html">
                 <img src="assets/images/logo.svg" alt="">
             </a>
             <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup"
@@ -62,11 +61,37 @@
             </button>
             <div class="collapse navbar-collapse justify-content-end" id="navbarNavAltMarkup">
                 <div class="navbar-nav">
-                    <a class="nav-item nav-link" href="#">What are we doing?</a>
-                    <a class="nav-item nav-link" href="#">Services</a>
-                    <a class="nav-item nav-link" href="#">About us</a>
-                    <a class="nav-item nav-link active" href="#">Blog</a>
-                    <a class="nav-item nav-link" href="#">Contact</a>
+                    <a class="nav-item nav-link" href="index.html">Home</a>
+                    <div class="dropdown">
+                        <a class="nav-item nav-link active" href="#">
+                            Services
+                            <svg width="10" height="5" viewBox="0 0 10 5" fill="none"
+                                 xmlns="http://www.w3.org/2000/svg">
+                                <path fill-rule="evenodd" clip-rule="evenodd" d="M5 5L10 0H0L5 5Z" fill="white"/>
+                            </svg>
+                        </a>
+                        <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+                            <a class="dropdown-item" href="mobile-development.html">Mobile Development </a>
+                            <a class="dropdown-item" href="web-development.html">Web Development</a>
+                            <a class="dropdown-item" href="blockchainDevelopment.html">Blockchain Development</a>
+                            <a class="dropdown-item" href="businessProcess.html">Business process automation</a>
+                        </div>
+                    </div>
+                    <a class="nav-item nav-link" href="blog.html">Blog</a>
+                    <a class="nav-item nav-link" href="contact.html">Contact us</a>
+                    <div class="dropdown">
+                        <a class="nav-item nav-link" href="#">
+                            EN
+                            <svg width="10" height="5" viewBox="0 0 10 5" fill="none"
+                                 xmlns="http://www.w3.org/2000/svg">
+                                <path fill-rule="evenodd" clip-rule="evenodd" d="M5 5L10 0H0L5 5Z" fill="white"/>
+                            </svg>
+                        </a>
+                        <div class="dropdown-menu dropdown-menu__min-width" aria-labelledby="dropdownMenuButton">
+                            <a class="dropdown-item" href="#">EN </a>
+                            <a class="dropdown-item" href="#">RU</a>
+                        </div>
+                    </div>
                 </div>
             </div>
         </div>
@@ -85,9 +110,9 @@
         m-0
 "
     >
-        <div class="container">
-            <div class="row row-cols-2 row-cols-sm-2 row-cols-md-3 g-3 d-flex justify-content-center">
-                <div class="col col-lg-7 col-md-8 col-sm-6">
+        <div class="container large-container">
+            <div class="row row-cols-md-3 hero-column-wrapper g-3 d-flex justify-content-center">
+                <div class="col col-lg-6 col-md-8 col-sm-6">
                     <div class="hero-wrapper__image">
                         <img src="assets/images/webDevelopment/web-dev.png" alt="Blog" width="457" height="286">
                         <div class="vector vector__left">
@@ -95,7 +120,7 @@
                         </div>
                     </div>
                 </div>
-                <div class="col col-lg-5 col-md-4 col-sm-6 d-flex align-items-center justify-content-end justify-content-sm-center justify-content-md-center  hero-info-container text-inside-image-large-size">
+                <div class="col col-lg-6 col-md-4 col-sm-6 d-flex align-items-center justify-content-end justify-content-sm-center justify-content-md-center  hero-info-container text-inside-image-large-size">
                     <h1 class="hero-wrapper__text"> Web Development</h1>
                 </div>
             </div>
@@ -105,10 +130,10 @@
 
     <!--================ Portfolio Area Start =================-->
     <section class="portfolio-wrapper dark-bg">
-        <div class="container">
+        <div class="container large-container">
             <div class="row">
                 <div class="col-md-12">
-                    <h2 class="section-title section-title__light">Портфолио</h2>
+                    <h2 class="section-title section-title__light">Portfolio</h2>
                 </div>
                 <div class="owl-carousel owl-theme">
                     <div class="item">
@@ -445,7 +470,7 @@
                 </div>
                 <div class="row feature-container row-cols-1 row-cols-lg-2">
                     <div class="feature col">
-                        <div class="d-flex align-items-end">
+                        <div class="d-flex align-items-end feature-container-icons-wrapper">
                             <div class="feature-icon">
                                 <img src="assets/images/webDevelopment/web-app-development.svg"
                                      alt="Web App Development" width="45"
@@ -459,7 +484,7 @@
                             printer took a galley of type and scrambled it to make a type specimen book. </p>
                     </div>
                     <div class="feature col">
-                        <div class="d-flex align-items-end">
+                        <div class="d-flex align-items-end feature-container-icons-wrapper">
                             <div class="feature-icon">
                                 <img src="assets/images/webDevelopment/web-design.svg" alt="Web Design" width="45"
                                      height="40">
@@ -472,8 +497,8 @@
                             printer took a galley of type and scrambled it to make a type specimen book. </p>
                     </div>
                     <div class="feature col">
-                        <div class="d-flex align-items-end">
-                            <div class="feature-icon ">
+                        <div class="d-flex align-items-end feature-container-icons-wrapper">
+                            <div class="feature-icon">
                                 <img src="assets/images/webDevelopment/cloud-web.svg" alt="Cloud Web" width="43"
                                      height="40">
                             </div>
@@ -485,7 +510,7 @@
                             of Letraset sheets containing Lorem Ipsum passages</p>
                     </div>
                     <div class="feature col">
-                        <div class="d-flex align-items-end">
+                        <div class="d-flex align-items-end feature-container-icons-wrapper">
                             <div class="feature-icon">
                                 <img src="assets/images/webDevelopment/web-integration.svg" alt="Web Integration"
                                      width="44"
@@ -595,6 +620,12 @@
 <script>
     $(".navbar-toggler").click(function () {
         $(".collapse").toggle();
+    });
+
+    $(function () {
+        $(".dropdown .nav-item").click(function () {
+            $(this).next(".dropdown-menu").slideToggle(500);
+        });
     });
 
     $('.owl-carousel').owlCarousel({

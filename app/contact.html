@@ -48,12 +48,11 @@
 </div>
 <!--================ Loader Area End =================-->
 
-
 <!--================ Header Area Start =================-->
 <header class="header-wrapper page-wrapper">
     <nav class="navbar navbar-expand-lg navbar-dark navbar navbar-expand-lg bg-dark dark-bg">
-        <div class="container">
-            <a class="navbar-brand" href="#">
+        <div class="container large-container">
+            <a class="navbar-brand" href="index.html">
                 <img src="assets/images/logo.svg" alt="">
             </a>
             <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup"
@@ -62,7 +61,7 @@
             </button>
             <div class="collapse navbar-collapse justify-content-end" id="navbarNavAltMarkup">
                 <div class="navbar-nav">
-                    <a class="nav-item nav-link active" href="#">Home</a>
+                    <a class="nav-item nav-link" href="index.html">Home</a>
                     <div class="dropdown">
                         <a class="nav-item nav-link" href="#">
                             Services
@@ -78,8 +77,8 @@
                             <a class="dropdown-item" href="businessProcess.html">Business process automation</a>
                         </div>
                     </div>
-                    <a class="nav-item nav-link" href="#">Blog</a>
-                    <a class="nav-item nav-link" href="#">Contact us</a>
+                    <a class="nav-item nav-link" href="blog.html">Blog</a>
+                    <a class="nav-item nav-link active" href="contact.html">Contact us</a>
                     <div class="dropdown">
                         <a class="nav-item nav-link" href="#">
                             EN
@@ -103,7 +102,7 @@
 <main class="page-wrapper dark-bg">
     <!--  ================  Contact Area Start ===============  -->
     <section class="contact_map dark-bg">
-        <img src="assets/images/contact_map.svg" alt="Contact Map" width="1440" height="372">
+<!--        <img src="assets/images/contact_map.svg" alt="Contact Map" width="1440" height="372">-->
     </section>
     <!--  ================  Contact Area Start ===============  -->
 
@@ -227,7 +226,7 @@
                             </div>
                             <div class="contact-form__item">
                                 <label for="email" class="contact-form__item-label">Email</label>
-                                <input type="text" name="" id="email" value="">
+                                <input type="text" name="" id="email" value="" class="email-validation">
                             </div>
                             <div class="contact-form__item textarea-form">
                                 <label for="messages" class="contact-form__item-label">
@@ -301,6 +300,12 @@
 <script>
     $(".navbar-toggler").click(function () {
         $(".collapse").toggle();
+    });
+
+    $(function () {
+        $(".dropdown .nav-item").click(function () {
+            $(this).next(".dropdown-menu").slideToggle(500);
+        });
     });
 
     $('.owl-carousel').owlCarousel({

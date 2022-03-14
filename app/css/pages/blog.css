@@ -10,8 +10,9 @@
 
 .hero-wrapper__text {
     position: relative;
-    font: var(--type-bold) normal normal var(--type-jumbo) var(--font-noah);
+    font: var(--type-bold) normal normal var(--type-jumbo) var(--font-webly-sleek);
     color: var(--clr-ntrl-min);
+    line-height: inherit;
 }
 
 .min-width-text {
@@ -272,7 +273,6 @@
     padding: 18px 14px 0 13px;
     margin-bottom: 20px;
     border: 1px solid #DEDEDE;
-    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.25);
 }
 
 .portfolio-details-list__item {
@@ -299,6 +299,6 @@
     font: var(--type-light) normal 30px var(--font-webly-sleek);
 }
 
-.blogs-item{
+.blogs-item {
     margin-bottom: 45px;
 }

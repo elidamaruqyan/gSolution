@@ -1,12 +1,20 @@
+/*.contact_map {*/
+/*    height: 372px;*/
+/*    margin-bottom: 41px;*/
+/*    border-bottom: 1px solid var(--main-brand-color);*/
+/*    background-image: url("../../assets/images/contact_map.svg");*/
+/*    background-position: center;*/
+/*    background-attachment: fixed;*/
+/*    background-size: cover;*/
+/*    background-repeat: no-repeat;*/
+/*    overflow: hidden;*/
+/*}*/
+
+
 .contact_map {
     height: 372px;
     margin-bottom: 41px;
     border-bottom: 1px solid var(--main-brand-color);
-    background-image: url("../../assets/images/contact_map.svg");
-    background-position: center;
-    background-attachment: fixed;
-    background-size: contain;
-    background-repeat: no-repeat;
     overflow: hidden;
 }
 

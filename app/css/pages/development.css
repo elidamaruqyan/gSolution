@@ -142,7 +142,7 @@
     flex-wrap: wrap;
 }
 
-.ios_logos {
+.ios_logos, .ios_content {
     display: none;
 }
 
@@ -201,8 +201,29 @@
     transform: translate(-51px, 0);
 }
 
+.web-dev__logos--ios {
+    transform: translate(0);
+    grid-row-gap: 74px;
+}
+
 .web-dev__logos .logo-item {
     width: 74px;
+}
+
+.custom-logo-gap {
+    margin: 18px 0 0 0;
+    width: 100%;
+}
+
+.custom-logo-gap img {
+    height: auto;
+    width: 82%;
+    margin-right: auto;
+}
+
+.web-dev__logos .logo-item.last-logo-item {
+    width: 80%;
+    margin-top: 20px;
 }
 
 .margin-left {

@@ -1,8 +1,8 @@
 /* FONT FACE LINKS */
 @font-face {
     font-family: 'WeblySleek UI';
-    src: url('../../assets/fonts/weblySleek/weblysleekuil.ttf');
-    src: local('../../assets/fonts/weblySleek/weblysleekuil.ttf')
+    src: url('https://fonts.googleapis.com/css2?family=Dosis:wght@200&display=swap');
+    src: local('https://fonts.googleapis.com/css2?family=Dosis:wght@200&display=swap')
 }
 
 @font-face {
@@ -78,7 +78,8 @@
 body,
 html {
     font-size: 16px;
-    font-family: 'WeblySleek UI', Arial, Helvetica, sans-serif;
+    font-family: 'Dosis', sans-serif;
+    /*font-family: 'WeblySleek UI', Arial, Helvetica, sans-serif;*/
     box-sizing: border-box;
     margin: 0;
     padding: 0;

@@ -1,9 +1,9 @@
 /* FONT FACE LINKS */
-@font-face {
-    font-family: 'WeblySleek UI';
-    src: url('https://fonts.googleapis.com/css2?family=Dosis:wght@200&display=swap');
-    src: local('https://fonts.googleapis.com/css2?family=Dosis:wght@200&display=swap')
-}
+/*@font-face {*/
+/*    font-family: 'WeblySleek UI';*/
+/*    src: url('../../assets/fonts/weblySleek/weblysleekuil.ttf');*/
+/*    src: local('../../assets/fonts/weblySleek/weblysleekuil.ttf')*/
+/*}*/
 
 @font-face {
     font-family: 'Helvetica';
@@ -50,7 +50,7 @@
 
     /*--type-large-responsive: 1.875rem; !* 35px *!*/
 
-    --font-webly-sleek: 'WeblySleek UI';
+    --font-webly-sleek:  'Roboto', sans-serif;
     --font-helvetica: "Helvetica";
 
     --type-light: 300;
@@ -67,6 +67,7 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
 }
 
 
@@ -78,8 +79,7 @@
 body,
 html {
     font-size: 16px;
-    font-family: 'Dosis', sans-serif;
-    /*font-family: 'WeblySleek UI', Arial, Helvetica, sans-serif;*/
+    font-family: 'WeblySleek UI', Arial, Helvetica, sans-serif;
     box-sizing: border-box;
     margin: 0;
     padding: 0;

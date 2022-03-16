@@ -322,7 +322,14 @@
                 </div>
                 <div class="col-lg-3 col-md-4 col-sm-12">
                     <button id="android_btn"
-                            class="d-flex align-items-center justify-content-start solution-btn solution-btn-mob-dev android-btn">
+                            class="d-flex align-items-center
+                            justify-content-start
+                            solution-btn
+                            solution-btn-mob-dev
+                            android-btn
+                            solution-btn--dark
+                            selected
+">
                         <img src="assets/images/mobileDevelopment/android-logo.svg" alt="Android Logo" width="30"
                              height="30">
                         <span class="text-start">
@@ -331,8 +338,13 @@
                         </span>
                     </button>
 
-                    <button id="ios_btn"
-                            class="d-flex align-items-center justify-content-start solution-btn solution-btn--dark solution-btn-mob-dev">
+                    <button id="ios_btn" class="d-flex
+                    align-items-center
+                     justify-content-start
+                     solution-btn
+                     solution-btn--dark
+                     solution-btn-mob-dev
+">
                         <img src="assets/images/mobileDevelopment/ios.svg" alt="Android Logo" width="30" height="30">
                         <span class="text-start">
                            IOS APP DEVELOPMENT
@@ -712,6 +724,8 @@
     })
 
     $('#android_btn').click(function () {
+        $(this).addClass('selected');
+        $('#ios_btn').removeClass('selected');
         /* For Logos */
         $('.android_logos').show();
         $('.ios_logos').hide();
@@ -722,6 +736,8 @@
     })
 
     $('#ios_btn').click(function () {
+        $(this).addClass('selected');
+        $('#android_btn').removeClass('selected');
         /* For Logos */
         $('.android_logos').hide();
         $('.ios_logos').show();

@@ -30,6 +30,10 @@
     background-color: var(--clr-ntrl-max);
 }
 
+.selected {
+    background-color: var(--main-brand-color);
+}
+
 .contact-btn {
     margin-top: 56px;
     box-shadow: unset;

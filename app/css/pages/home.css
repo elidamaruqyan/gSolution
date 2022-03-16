@@ -339,7 +339,7 @@
     display: grid;
     gap: 43px 94px;
     grid-auto-rows: 100px;
-    grid-template-columns: repeat(auto-fill, minmax(120px, 1fr));
+    grid-template-columns: repeat(auto-fill, minmax(150px, 1fr));
 }
 
 .partner-list__item {

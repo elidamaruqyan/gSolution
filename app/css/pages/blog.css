@@ -37,6 +37,15 @@
     padding: 25px 0 0 58px;
 }
 
+.min-padding {
+    padding: 25px 0 0 26px;
+}
+
+.margin-left-0 {
+    margin-left: 0;
+    margin-right: auto;
+}
+
 .vector {
     position: absolute;
     right: -75px;

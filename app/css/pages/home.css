@@ -36,7 +36,7 @@
 }
 
 .hero-wrapper__subtitle {
-    margin: 20px 0 0 -24px;
+    margin: 20px 0 0 -14px;
 }
 
 .hero-wrapper__subtitle-item {
@@ -350,6 +350,7 @@
 .partner-list img {
     object-fit: contain;
     height: auto;
+    margin: 0 auto;
 }
 
 .partner-list__item--height-auto img {
@@ -358,6 +359,58 @@
 
 .partner-list__item--margin-top img {
     transform: translateY(-12px);
+}
+
+
+/**/
+.chain_logo img {
+    width: 164px;
+    height: 35px;
+}
+
+.pastel_logo img {
+    width: 156px;
+    height: 39px;
+}
+
+.sanuscoin_logo img {
+    width: 97px;
+    height: 79px;
+}
+
+.hawaii_logo img {
+    width: 164px;
+    height: 53px;
+}
+
+.indimaniya_logo img {
+    width: 180px;
+    height: 78px;
+}
+
+.vagames_logo img {
+    width: 105px;
+    height: 89px;
+}
+
+.dancer_logo img {
+    width: 178px;
+    height: 44px;
+}
+
+.redops_logo img {
+    width: 183px;
+    height: 52px;
+}
+
+.indepent_logo img {
+    width: 138px;
+    height: 35px;
+}
+
+.digitalFactory_logo img{
+    width: 170px;
+    height: 20px;
 }
 
 /*********** Reviews *************************/

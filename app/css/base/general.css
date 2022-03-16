@@ -50,7 +50,7 @@
 
     /*--type-large-responsive: 1.875rem; !* 35px *!*/
 
-    --font-webly-sleek:  'Montserrat', sans-serif;
+    --font-webly-sleek:  'Open Sans', sans-serif;
     --font-helvetica: "Helvetica";
 
     --type-light: 300;
@@ -67,7 +67,7 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    font-family: 'Montserrat', sans-serif;
+    font-family: 'Open Sans', sans-serif;
 }
 
 

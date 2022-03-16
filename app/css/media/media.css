@@ -86,8 +86,12 @@
     }
 
     .expertise-wrapper .dev-projects__logos {
-        grid-template-columns: repeat(auto-fill, minmax(180px, 1fr));
+        grid-template-columns: repeat(auto-fill, minmax(132px, 1fr));
         margin: 0 0 50px;
+    }
+
+    .expertise-wrapper .android_logos {
+        grid-template-columns: repeat(auto-fill, minmax(135px, 1fr));
     }
 
     .sub-info__description {
@@ -425,6 +429,7 @@
     .web-dev__logos {
         grid-template-columns: repeat(auto-fill, minmax(130px, 1fr));
         transform: translate(0);
+        margin-top: 0;
     }
 
     .dropdown-menu {
@@ -448,6 +453,14 @@
         background: black;
         z-index: 999;
         padding: 0 20px;
+    }
+
+    .android_content, .ios_content {
+        margin-top: 20px;
+    }
+
+    .dev-projects__info {
+        margin-bottom: 30px;
     }
 }
 
@@ -551,7 +564,50 @@
 
 @media screen and (max-width: 1200px) and (min-width: 768px) {
     .web-dev__logos--ios {
-        grid-template-columns: repeat(auto-fill, minmax(80px, 1fr));
         grid-row-gap: 0;
+        grid-template-columns: repeat(auto-fill, minmax(102px, 1fr));
+    }
+}
+
+
+@media screen  and (max-width: 1200px) and (min-width: 998px) {
+    .services .grid-gap {
+        width: 80%;
+        margin: 0 auto;
+        grid-template-columns: repeat(auto-fill, minmax(316px, 1fr));
+    }
+
+    .business__logos {
+        grid-row-gap: 0;
+        grid-template-columns: repeat(auto-fill, minmax(117px, 1fr));
+    }
+}
+
+@media screen  and (max-width: 991px) and (min-width: 688px) {
+    .web-dev__logos .logo-item {
+        width: 74px;
+        margin: 22px auto 0;
+    }
+
+    .expertise-wrapper .ios_logos .dev-projects__logos {
+        grid-template-columns: repeat(auto-fill, minmax(180px, 1fr));
+        margin: 0 0 50px;
+    }
+}
+
+@media screen  and (max-width: 920px) {
+    .contact_map img {
+        transform: scale(1.4);
+        object-fit: contain;
+        height: auto;
+    }
+
+    .contact_map {
+        height: auto;
+    }
+
+    .expertise-wrapper .ios_logos .dev-projects__logos {
+        grid-template-columns: repeat(auto-fill, minmax(180px, 1fr));
+        margin: 0 0 50px;
     }
 }

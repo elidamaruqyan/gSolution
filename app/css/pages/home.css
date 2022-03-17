@@ -40,7 +40,7 @@
 }
 
 .hero-wrapper__subtitle-item {
-    font: var(--type-light) normal normal 40px var(--font-webly-sleek);
+    font: var(--type-medium) normal normal 40px var(--font-webly-sleek);
 }
 
 /*********** Case Studio *************************/

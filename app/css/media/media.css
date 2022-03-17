@@ -23,6 +23,10 @@
         padding: 0 15px;
     }
 
+    .web-dev__logos .logo-item {
+        margin: 0 auto;
+    }
+
     .min-width-container {
         min-width: 100%;
     }
@@ -108,6 +112,10 @@
 
     .web-dev__logos {
         grid-gap: 0;
+    }
+
+    .web-dev__logos {
+        grid-gap: 25px 0;
     }
 
     .hero-wrapper {
@@ -318,9 +326,10 @@
     }
 }
 
+
 @media screen  and (max-width: 900px) {
     .hero-wrapper__text {
-        font-size: 3.25rem;
+        font-size: 3rem;
     }
 
     .hero-wrapper__image {
@@ -430,6 +439,11 @@
         grid-template-columns: repeat(auto-fill, minmax(130px, 1fr));
         transform: translate(0);
         margin-top: 0;
+    }
+
+    .web-dev__logos.blockchain__logos {
+        grid-gap: 50px;
+        grid-template-columns: repeat(auto-fill, minmax(64px, 1fr));
     }
 
     .dropdown-menu {
@@ -609,5 +623,31 @@
     .expertise-wrapper .ios_logos .dev-projects__logos {
         grid-template-columns: repeat(auto-fill, minmax(180px, 1fr));
         margin: 0 0 50px;
+    }
+}
+
+@media screen and (max-width: 590px) {
+    .expertise-wrapper .ios_logos .dev-projects__logos {
+        grid-template-columns: repeat(auto-fill, minmax(104px, 1fr));
+    }
+}
+
+
+@media screen  and (max-width: 400px) {
+    .text-inside-image-large-size, .text-inside-image {
+        transform: translate(0px, 35px);
+    }
+
+    .web-dev__logos.blockchain__logos {
+        grid-gap: 50px;
+        grid-template-columns: repeat(auto-fill, minmax(90px, 1fr));
+    }
+}
+
+@media screen  and (min-width: 400px)  and (max-width: 544px) {
+
+    .web-dev__logos.blockchain__logos {
+        grid-gap: 50px;
+        grid-template-columns: repeat(auto-fill, minmax(90px, 1fr));
     }
 }

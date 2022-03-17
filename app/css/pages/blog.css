@@ -8,6 +8,10 @@
     margin: 0;
 }
 
+.blog-container{
+    padding-bottom: 30px;
+}
+
 .hero-wrapper__text {
     position: relative;
     font: var(--type-bold) normal normal var(--type-jumbo) var(--font-webly-sleek);

@@ -7,6 +7,10 @@
     transform: translate(-84px, -9px);
 }
 
+.blog-inside {
+    transform: translate(-63px, -9px);
+}
+
 .text-inside-image {
     transform: translate(-19%, -9px);
 }

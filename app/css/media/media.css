@@ -2,7 +2,7 @@
     .partner-list {
         gap: 43px 65px;
         grid-auto-rows: 88px;
-        grid-template-columns: repeat(auto-fill, minmax(100px, 1fr));
+        grid-template-columns: repeat(auto-fill, minmax(124px, 1fr));
     }
 
     .service-section-title {
@@ -298,7 +298,7 @@
     }
 
     .case-studio-card .card-image {
-        height: 200px;
+        height: auto;
     }
 
     .case-studio-card {
@@ -326,10 +326,9 @@
     }
 }
 
-
 @media screen  and (max-width: 900px) {
     .hero-wrapper__text {
-        font-size: 3rem;
+        max-width: 75%;
     }
 
     .hero-wrapper__image {
@@ -363,7 +362,7 @@
     .partner-hero-wrapper .home-sections__title {
         letter-spacing: normal;
         margin: 10px 0 0 10px;
-        font-size: 60px;
+        font-size: 3.125vw;
     }
 
     .partner-hero-wrapper .hero__image {
@@ -549,6 +548,7 @@
 
     .text-inside-image-large-size, .text-inside-image {
         transform: translate(40px, 22px);
+        justify-content: flex-start !important;
     }
 
     .single-page-container {
@@ -575,14 +575,12 @@
     }
 }
 
-
 @media screen and (max-width: 1200px) and (min-width: 768px) {
     .web-dev__logos--ios {
         grid-row-gap: 0;
         grid-template-columns: repeat(auto-fill, minmax(102px, 1fr));
     }
 }
-
 
 @media screen  and (max-width: 1200px) and (min-width: 998px) {
     .services .grid-gap {
@@ -606,6 +604,22 @@
     .expertise-wrapper .ios_logos .dev-projects__logos {
         grid-template-columns: repeat(auto-fill, minmax(180px, 1fr));
         margin: 0 0 50px;
+    }
+
+    .map {
+        position: relative;
+    }
+
+    .about-us-card__info {
+        margin-bottom: 40px;
+    }
+
+    .about-us-card {
+        margin-bottom: 50px;
+    }
+
+    .case-studio {
+        margin-bottom: 0;
     }
 }
 
@@ -632,10 +646,14 @@
     }
 }
 
-
 @media screen  and (max-width: 400px) {
     .text-inside-image-large-size, .text-inside-image {
         transform: translate(0px, 35px);
+    }
+
+    .text-inside-image-large-size,
+    .text-inside-image.blog-banner-title {
+        transform: translate(40px, 22px);
     }
 
     .web-dev__logos.blockchain__logos {
@@ -649,5 +667,26 @@
     .web-dev__logos.blockchain__logos {
         grid-gap: 50px;
         grid-template-columns: repeat(auto-fill, minmax(90px, 1fr));
+    }
+}
+
+@media screen and (max-width: 770px) and (min-width: 688px) {
+    .case-studio .section-title {
+        padding-left: 25px;
+    }
+}
+
+@media screen and (min-width: 770px) and (max-width: 902px) {
+    .business_title {
+        transform: translate(-38%, -9px);
+    }
+    .blog-banner-title {
+        font-size: 70px;
+    }
+}
+
+@media screen and (min-width: 992px) and (max-width: 1420px) {
+    .feature-card__title {
+        font-size: 20px;
     }
 }

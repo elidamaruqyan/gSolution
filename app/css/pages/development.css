@@ -253,7 +253,7 @@
 
 /*Blockchain logos*/
 .blockchain__logos .logo-item {
-    width: 90px;
+    width: 95px;
 }
 
 .blockchain__logos .dev-projects__logo-name {
@@ -334,4 +334,13 @@
 
 .feature-icon--extra-small img {
     width: 38px;
+}
+
+.business_title {
+    padding: 0;
+}
+
+.blog-banner-title {
+    font-size: var(--type-jumbo-rem);
+    margin: 0;
 }

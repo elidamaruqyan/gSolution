@@ -8,7 +8,7 @@
     margin: 0;
 }
 
-.blog-container{
+.blog-container {
     padding-bottom: 30px;
 }
 
@@ -20,7 +20,7 @@
 }
 
 .min-width-text {
-    font-size: 90px;
+    font-size: 4.6875vw
 }
 
 .trapezoid {
@@ -39,6 +39,10 @@
     position: relative;
     display: inline-flex;
     padding: 25px 0 0 58px;
+}
+
+.blockchain__banner-image img {
+    height: auto;
 }
 
 .min-padding {

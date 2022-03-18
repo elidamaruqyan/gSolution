@@ -46,7 +46,8 @@
     --type-large: 1.25rem; /* 20px */
     --type-larger: 1.375rem; /* 22px */
     --type-largest: 3rem; /* 48px */
-    --type-jumbo: 6.25rem; /* 100px */
+    --type-jumbo: 5.3vw; /* 100px */
+    --type-jumbo-rem: 6.25rem; /* 100px */
 
     /*--type-large-responsive: 1.875rem; !* 35px *!*/
 
